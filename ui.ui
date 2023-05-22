@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1360</width>
+    <height>723</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">/*display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 80px 195px;
+gap: 30px;*/
+
+position: absolute;
+width: 1366px;
+height: 726px;
+left: 0px;
+top: 0px;
+
+background: rgba(43, 43, 43, 0.63);</string>
+   </property>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1366</width>
+      <height>726</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/*display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 80px 195px;
+gap: 30px;*/
+
+position: absolute;
+width: 1366px;
+height: 726px;
+left: 0px;
+top: 0px;
+
+background: rgba(43, 43, 43, 0.63);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-170</y>
+       <width>1981</width>
+       <height>1061</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/*display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 80px 195px;
+gap: 30px;*/
+
+position: absolute;
+width: 1366px;
+height: 726px;
+left: 0px;
+top: 0px;
+
+background: rgba(43, 43, 43, 0.63);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>Group 1.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>154</x>
+       <y>520</y>
+       <width>480</width>
+       <height>72</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Work Sans</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+color: #FFFFFF;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+/*display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 50px;
+gap: 12px;*/
+
+position: absolute;
+width: 460px;
+height: 72px;
+
+/* Call to Action */
+
+background: #A259FF;
+border-radius: 20px;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>ЗАГРУЗИТЬ ИЗОБРАЖЕНИЕ</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img.png</normaloff>img.png</iconset>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>118</x>
+       <y>158</y>
+       <width>533</width>
+       <height>303</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* New Member 4 */
+
+
+/*box-sizing: border-box;
+
+/* Auto layout */
+
+/*display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;*/
+padding: 8px 0px;
+
+position: relative;
+width: 533px;
+height: 303px;
+
+background: linear-gradient(180deg, #9E68E3 0%, rgba(215, 56, 240, 0) 100%);
+/*background-blend-mode: overlay;*/
+border: 1px solid #FFFCFC;
+/*backdrop-filter: blur(15px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>New Member 4.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>220</y>
+       <width>151</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">position: absolute;
+width: 50.47px;
+height: 49.94px;
+
+background: url(cross(1).png);
+transform: rotate(-45deg);
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>img_1.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>150</y>
+       <width>481</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Узнай вид лебедя по фотографии */
+background-color: rgb();
+
+
+width: 592px;
+height: 210px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 110%;
+/* or 70px */
+
+/*display: flex;
+align-items: center;*/
+text-transform: uppercase;
+
+/* White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+/*flex: none;
+order: 0;
+flex-grow: 0;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Узнай вид &lt;/p&gt;&lt;p&gt;лебедя по &lt;/p&gt;&lt;p&gt;фотографии &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>430</y>
+       <width>931</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">width: 506px;
+height: 140px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+/* or 35px */
+
+font-variant: small-caps;
+
+/* White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+/*flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;*/
+background-color: rgb();</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Обученная нейросеть позволяет распознать &lt;/p&gt;&lt;p&gt;виды лебедей и отличать их друг от друга. &lt;/p&gt;&lt;p&gt;Для получения резутатов требуется &lt;/p&gt;&lt;p&gt;загрузить изображение.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
